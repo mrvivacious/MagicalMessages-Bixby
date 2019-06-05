@@ -3,5 +3,8 @@ endpoints {
      action-endpoint (GenerateMessage) {
        local-endpoint ("GenerateMessage.js")
      }
+    action-endpoint (GenerateCompliment) {
+       local-endpoint ("GenerateCompliment.js")
+     }
    }
 }

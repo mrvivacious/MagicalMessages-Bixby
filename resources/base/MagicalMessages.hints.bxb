@@ -13,5 +13,6 @@ hints {
         utterance (Open Magical Messages)
         utterance (I feel bad)
         utterance (Tell me something magical)
+        utterance (Tell me a compliment)
     }
 }

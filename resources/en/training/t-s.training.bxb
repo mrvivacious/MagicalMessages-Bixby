@@ -1,3 +1,8 @@
+train (t-sabp8yxr9hedwker1umdgsmuo) {
+  utterance ([g:GenerateCompliment] can i have a compliment)
+  plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oY9PDpcE/NSy1KLEl1zs8tyMnMTc0rYWAEQgYoBpIA)
+  last-modified (1559775635242)
+}
 train (t-sgydde7q96o7e55tv87m50324) {
   utterance ([g:GenerateMessage] can you make me feel better)
   plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oYtPHpcE/NSy1KLEmFCjAwAiEDFANJAA==)

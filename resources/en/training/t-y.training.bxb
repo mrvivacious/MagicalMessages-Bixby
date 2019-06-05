@@ -1,0 +1,5 @@
+train (t-y7fbo0bc61ei548n4zo754t74) {
+  utterance ([g:GenerateCompliment] tell me a compliment)
+  plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oY9PDpcE/NSy1KLEl1zs8tyMnMTc0rYWAEQgYoBpIA)
+  last-modified (1559775636744)
+}

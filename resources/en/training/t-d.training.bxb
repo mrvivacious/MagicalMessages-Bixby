@@ -1,0 +1,5 @@
+train (t-ddbamyu55cn96686x2adcswoq) {
+  utterance ([g:GenerateCompliment] give me a compliment)
+  plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oY9PDpcE/NSy1KLEl1zs8tyMnMTc0rYWAEQgYoBpIA)
+  last-modified (1559775636036)
+}
