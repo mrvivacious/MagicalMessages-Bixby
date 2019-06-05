@@ -10,5 +10,14 @@ result-view {
     conversation-driver {
       template ("Another message")
     }
+    conversation-driver {
+      template ("A compliment")
+    }
   }
+//   
+//   conversation-drivers {
+//     conversation-driver {
+//       template ("Another message")
+//     }
+//   }
 }
