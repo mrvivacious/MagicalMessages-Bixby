@@ -50,12 +50,6 @@ layout {
         //   style (Title_S)
         // } // End paragraph
         
-        // Small instruction
-        paragraph {
-          // Lmao how do I add a <br> ?
-          value ("\nTouch the magic ball for a magical message!")
-          style (Detail_M_Soft)
-        } // End paragraph
 
       } // End content.section.content
     } // End content.section

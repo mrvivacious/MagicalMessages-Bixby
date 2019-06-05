@@ -1,0 +1,14 @@
+result-view {
+  match: MessageResultConcept (this)
+  
+  render {
+    layout-match (this) {
+      mode (Details)
+    }
+  }
+  conversation-drivers {
+    conversation-driver {
+      template ("Another message")
+    }
+  }
+}
