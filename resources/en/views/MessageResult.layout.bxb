@@ -28,7 +28,7 @@ layout {
               } // end text
             } // end slot1
           } // end title-area
-
+          
           // Attach on-click listener to allows users to generate a new message by 
           //  touching the crystal ball
           on-click {
@@ -39,7 +39,7 @@ layout {
           
           // The URL of the image/gif to show, in this case the crystal ball image
           // image-url ("https://raw.githubusercontent.com/mrvivacious/Magic-Messages/master/app/src/main/res/drawable-xxhdpi/img_crystal.png")
-          image-url(../assets/Images/img_crystal.png)
+          image-url(../assets/Images/img_crystal_background.png)
         } // End image-card
         
         // Commented this out because we have the message 
