@@ -3,4 +3,10 @@
 # MagicalMessages-Bixby
 Magical Messages, now supported by Samsung's Bixby
 
-Hi Bixby, I'm sad
+Hi Bixby, 
+
+Tell me a Magical Message
+
+Share a compliment
+
+I'm sad
