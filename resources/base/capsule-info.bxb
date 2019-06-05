@@ -1,0 +1,31 @@
+description {
+  displayName (Magical Messages)
+  description ("Magical Messages are little statements of motivation, compliments, or inspiration that could help brighten your day, delivered through Bixby ~")
+  websiteUrl (https://mrvivacious.github.io/posts/Magical_Messages.html)
+  androidAppId(com.mrvivacious.android.fortuneballll)
+  
+  // Like this? I tried putting assets in the resources folder but I couldn't 
+  //  get the "../Images/img_crystal/png" path to work at all 
+  iconUrl (../assets/Images/img_crystal.png)
+  
+  dispatch-name (Magical Messages)
+  dispatch-aliases {
+    alias (Magical Message)
+    alias (Magic Messages)
+    alias (Special messages)
+    alias (Magic words)
+  }
+
+  search-keywords {
+    keyword (smile)
+    keyword (magical)
+    keyword (messages)
+    keyword (positive)
+    keyword (kindness)
+    keyword (friend)
+    keyword (love)
+    keyword (respect)
+    keyword (sad)
+    keyword (motivation)
+  }
+}

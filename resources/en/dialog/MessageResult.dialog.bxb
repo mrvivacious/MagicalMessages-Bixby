@@ -1,0 +1,11 @@
+dialog (Result) {
+  match {
+    MessageResultConcept (MessageResultConcept) {
+      from-output: GenerateMessage (MessageConcept)
+    }
+  } // match 
+  
+  // Template overrides the "Here's what I found"
+  // template ("Click the magic ball for a magical message!")
+  template ("${value(MessageResultConcept.fullMsg)}")
+}

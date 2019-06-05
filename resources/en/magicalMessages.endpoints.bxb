@@ -1,0 +1,7 @@
+endpoints {
+   action-endpoints {
+     action-endpoint (GenerateMessage) {
+       local-endpoint ("GenerateMessage.js")
+     }
+   }
+}

@@ -1,0 +1,10 @@
+train (t-re6b57ej2x0y3y0gbqitwsxlt) {
+  utterance ([g:GenerateMessage] i could use some magic)
+  plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oYtPHpcE/NSy1KLEmFCjAwAiEDFANJAA==)
+  last-modified (1559686260006)
+}
+train (t-rxgmcpzfnjquml56bajtstcvp) {
+  utterance ([g:GenerateMessage] tell me a magic message)
+  plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oYtPHpcE/NSy1KLEmFCjAwAiEDFANJAA==)
+  last-modified (1559686142730)
+}

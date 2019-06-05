@@ -1,0 +1,12 @@
+capsule {
+  id (mrvivacious.magicalMessages)
+  version (1.0.2)
+  format (3)
+  targets {
+    target (bixby-mobile-en)
+  }
+  
+  store-sections {
+    section (GamesAndFun)
+  }
+}

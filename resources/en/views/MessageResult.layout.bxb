@@ -1,0 +1,63 @@
+// Responsible for the output and Magical Messages 
+//  "regenerate" functionality 
+
+layout {
+  match: MessageResultConcept (this)
+  mode (Details)
+
+  // The content of the layout
+  content {
+    // content.section
+    section {
+      // content.section.content, the content of the layout section
+      content {
+        // The "Here's your message:" etc text is generated in MessageResult.dialog.bxb
+        
+        // Image card that holds the Magical Messages crystal ball
+        image-card {
+          // Retain the square shape and avoid cropping the image
+          aspect-ratio (1:1)
+          // Accessibility ftw
+          aria-label ("A crystal ball that generates magical messages when touched!")
+         
+          // Required, kept empty value because text is not needed on the crystal ball
+          title-area {
+            slot1 {
+              text {
+                value ("")
+              } // end text
+            } // end slot1
+          } // end title-area
+
+          // Attach on-click listener to allows users to generate a new message by 
+          //  touching the crystal ball
+          on-click {
+            intent {
+              goal: GenerateMessage
+            } // end intent
+          } // end on-click
+          
+          // The URL of the image/gif to show, in this case the crystal ball image
+          // image-url ("https://raw.githubusercontent.com/mrvivacious/Magic-Messages/master/app/src/main/res/drawable-xxhdpi/img_crystal.png")
+          image-url(../assets/Images/img_crystal.png)
+        } // End image-card
+        
+        // Commented this out because we have the message 
+        //  read by Bixby in the header itself
+        // The generated message itself
+        // paragraph {
+        //   value ("#{value(this.msg)}")
+        //   style (Title_S)
+        // } // End paragraph
+        
+        // Small instruction
+        paragraph {
+          // Lmao how do I add a <br> ?
+          value ("\nTouch the magic ball for a magical message!")
+          style (Detail_M_Soft)
+        } // End paragraph
+
+      } // End content.section.content
+    } // End content.section
+  } // End content
+} // End layout

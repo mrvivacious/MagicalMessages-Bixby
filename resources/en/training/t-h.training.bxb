@@ -1,0 +1,5 @@
+train (t-htj9qxzp27ft9idbrqn7x8n2e) {
+  utterance ([g:GenerateMessage] Tell me a magical message)
+  plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oYtPHpcE/NSy1KLEmFCjAwAiEDFANJAA==)
+  last-modified (1555038198678)
+}

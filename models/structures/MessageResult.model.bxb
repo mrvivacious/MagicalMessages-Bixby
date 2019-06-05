@@ -1,0 +1,16 @@
+structure (MessageResultConcept) {
+  description (The result object produce by the GenerateMessage action.)
+  
+  property (intro) {
+    type (IntroConcept)
+  }
+  
+  property (msg) {
+    type (MessageConcept)
+  }
+  
+  property (fullMsg) {
+    type (FullMessageConcept)
+  }
+  
+}

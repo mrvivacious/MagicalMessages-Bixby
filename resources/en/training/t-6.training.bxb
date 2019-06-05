@@ -1,0 +1,5 @@
+train (t-6qsaeuxun9e2fc50q31z9a46r) {
+  utterance ([g:GenerateMessage] I want to hear something nice)
+  plan (Y2BiMMgtKsssS0zOzC8t1stNTM9MTszxTS0uTkxPLdaDMoJSi0tzSpzz85JTC0oYtPHpcE/NSy1KLEmFCjAwAiEDFANJAA==)
+  last-modified (1559686253066)
+}

@@ -1,0 +1,69 @@
+<layout mode="Details">
+  <!--  How to resize the Bixby deliverable?  -->
+   <!-- Bind the variable "r" to the "MessageResultConcept" event -->
+   <match>
+     MessageResultConcept (r)
+   </match>
+  
+<!--  STYLESHEET  -->
+   <style>
+    #share {
+/*       background-color: red; */
+      font-size: 20px;
+    }
+    </style>
+<!--  END STYLESHEET  -->
+  
+   <content>
+     
+     <!-- Add a BML template that adds text before the sum and
+     rolls in the results -->    
+<!--      <div>
+      From Bixby
+     </div> -->
+     
+     
+    <!-- Post-message -->
+     <center>
+     <div id="postMessage">
+       <a href="https://mrvivacious.github.io/posts/Magical_Messages.html" align="center" style="color:white;">
+         <img src="https://raw.githubusercontent.com/mrvivacious/Magical_Messages/master/img_crystal.png" alt="The Magical Messages crystal ball" style="height: 50%; width: 50%; object-fit: contain">
+       </a>
+        <div style="color:deeppink;">
+           DEBUG: onClick should generate a new message
+           <br>(Currently opens a URL to my website lol)
+        </div>
+     </center>
+     
+<!--    
+Hardcoding these br is a bad idea bcuz 
+ various devices have different sized screens :O
+-->
+       
+
+      <br><br>
+      <br><br>
+
+       <center>
+         <button id="share">Share</button>
+          <div style="color:deeppink;">
+           DEBUG: onClick should open a "Send via" panel, or 
+            <br>could jump into a "Select contact" screen, but howwwww
+          </div>
+       </center>
+       
+       <br><br>
+     
+       <a id="demo" href="https://mrvivacious.github.io/ido.html#projects" align="center" style="color:white;">
+       See more 
+       </a> 
+       <br>
+       <div style="color:grey;">
+         (Redirects to mrvivacio.us)
+       </div>
+     </div>
+<!-- Post-message end -->
+
+  </content>
+ </layout> 
+
