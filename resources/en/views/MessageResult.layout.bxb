@@ -36,7 +36,7 @@ layout {
               goal: GenerateMessage
             } // end intent
           } // end on-click
-          
+                    
           // The URL of the image/gif to show, in this case the crystal ball image
           // image-url ("https://raw.githubusercontent.com/mrvivacious/Magic-Messages/master/app/src/main/res/drawable-xxhdpi/img_crystal.png")
           image-url(../assets/Images/img_crystal_background.png)
