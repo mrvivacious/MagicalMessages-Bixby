@@ -1,20 +1,20 @@
-description {
-  displayName (Magical Messages)
+capsule-info {
+  display-name (Magical Messages)
   description ("Magical Messages are little statements of motivation, compliments, or inspiration that could help brighten your day, delivered through Bixby ~")
-  websiteUrl (https://mrvivacious.github.io/posts/Magical_Messages.html)
-  androidAppId(com.mrvivacious.android.fortuneballll)
-  companyName ("Vivek Bhookya")
+  website-url (https://mrvivacious.github.io/posts/Magical_Messages.html)
+  android-app-id (com.mrvivacious.android.fortuneballll)
+  developer-name ("Vivek Bhookya")
   
   // Like this? I tried putting assets in the resources folder but I couldn't 
   //  get the "../Images/img_crystal/png" path to work at all 
-  iconUrl (../assets/Images/img_crystal.png)
+  icon-asset (../assets/Images/img_crystal.png)
   
   dispatch-name (Magical Messages)
   dispatch-aliases {
     alias (Magical Message)
     alias (Magic Messages)
     alias (Special messages)
-    alias (Magic words)
+    alias (Magical Compliments)
   }
 
   search-keywords {

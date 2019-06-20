@@ -32,29 +32,13 @@ function getCompliment() {
     "You are a role model and a great friend."
   ];
   
-  // Preface statements for the composite message
-  let intros = [
-    "Here's your message: ",
-    "A message for you: ",
-    "Here's your message! ",
-    "A message for you! "
-  ];
-
   // Generate a random number and grab that message
   let randomIdx = Math.floor(Math.random() * compliments.length);
   let randomMsg = compliments[randomIdx];
-  
-  // Grab a random prefix
-  randomIdx = Math.floor(Math.random() * intros.length);
-  let randomIntro = intros[randomIdx];
-  
-  let fullMsg = randomIntro + randomMsg;
 
   // MessageResult
   return {
-    intro: randomIntro,
-    msg: randomMsg,
-    fullMsg: fullMsg
+    msg: randomMsg
   }
 }
 

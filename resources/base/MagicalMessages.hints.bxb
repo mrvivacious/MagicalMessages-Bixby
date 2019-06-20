@@ -3,14 +3,13 @@ hints {
     //  Capsule details page in collapsed view.
     // All hints will be shown only after the user presses “View All”.
     uncategorized {
-        utterance (Show me a Magical Message)
+        utterance (Show me a magical message)
         utterance (I am feeling sad)
         utterance (Tell me something nice)
     
         // These are shown after the user presses "View All" 
         utterance (I want to hear something nice)
-        utterance (What is a Magical Message)
-        utterance (Open Magical Messages)
+        utterance (What is a magical message)
         utterance (I feel bad)
         utterance (Tell me something magical)
         utterance (Tell me a compliment)

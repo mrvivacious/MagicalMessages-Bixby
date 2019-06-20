@@ -17,7 +17,7 @@ function getMessage() {
     "The best way to start doing something is to start doing it.",
     "A period of consistent failure does not necessarily mean that success will never be seen.",
     "If you're always learning, when are you applying?",
-    "When you aren't feeling your best, you are prone to fall for the worst",
+    "When you aren't feeling your best, you are prone to fall for the worst.",
     "The way you see yourself is not the way others see you...and the way others see you isn't" +
                     " necessarily who you really are.",
     "Commitments and responsibilities cease, but knowledge and love are eternal.",
@@ -67,29 +67,13 @@ function getMessage() {
     "You are a role model and a great friend."
   ];
   
-  // Preface statements for the composite message
-  let intros = [
-    "Here's your message: ",
-    "A message for you: ",
-    "Here's your message! ",
-    "A message for you! "
-  ];
-
   // Generate a random number and grab that message
   let randomIdx = Math.floor(Math.random() * messages.length);
   let randomMsg = messages[randomIdx];
   
-  // Grab a random prefix
-  randomIdx = Math.floor(Math.random() * intros.length);
-  let randomIntro = intros[randomIdx];
-  
-  let fullMsg = randomIntro + randomMsg;
-
   // MessageResult
   return {
-    intro: randomIntro,
-    msg: randomMsg,
-    fullMsg: fullMsg
+    msg: randomMsg
   }
 }
 

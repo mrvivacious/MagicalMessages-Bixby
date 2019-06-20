@@ -7,5 +7,5 @@ dialog (Result) {
   
   // Template overrides the "Here's what I found"
   // template ("Click the magic ball for a magical message!")
-  template ("${value(MessageResultConcept.fullMsg)}")
+  template ("${value(MessageResultConcept.msg)}")
 }
