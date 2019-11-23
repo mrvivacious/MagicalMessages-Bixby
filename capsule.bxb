@@ -1,6 +1,6 @@
 capsule {
   id (mrvivacious.magicalMessages)
-  version (1.0.5)
+  version (1.0.6)
   format (3)
   targets {
     target (bixby-mobile-en)
@@ -8,5 +8,10 @@ capsule {
   
   store-sections {
     section (GamesAndFun)
+  }
+
+  runtime-flags {
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
 }
