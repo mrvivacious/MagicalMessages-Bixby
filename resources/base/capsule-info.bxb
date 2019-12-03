@@ -12,9 +12,6 @@ capsule-info {
   dispatch-name (Magical Messages)
   dispatch-aliases {
     alias (Magical Message)
-    alias (Magic Messages)
-    alias (Special messages)
-    alias (Magical Compliments)
   }
 
   search-keywords {
