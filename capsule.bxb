@@ -1,17 +1,31 @@
 capsule {
   id (mrvivacious.magicalMessages)
-  version (1.0.7)
+  version (1.0.8)
   format (3)
   targets {
     target (bixby-mobile-en)
   }
-  
+
+  store-countries {
+    all
+  }
+
+  runtime-version (7) {
+    overrides {
+      no-fallback-dialog-in-views (false)
+      auto-insert-navigation-conversation-drivers (false)
+      use-most-specific-instantiation-strategy (false)
+      no-auto-property-value-merging (false)
+      use-authorization-header-for-remote-endpoint-oauth (false)
+      use-input-views-for-selection-list-detail (false)
+      concepts-inherit-super-type-features (false)
+      modern-prompt-rejection (false)
+      support-halt-effect-in-computed-inputs (false)
+      result-view-capsule-lock (false)
+    }
+  }
   store-sections {
     section (GamesAndFun)
   }
 
-  runtime-flags {
-    no-filtering-with-validation
-    modern-default-view-behavior
-  }
 }
